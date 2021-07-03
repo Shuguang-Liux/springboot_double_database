@@ -12,5 +12,6 @@ import java.util.List;
 @org.apache.ibatis.annotations.Mapper
 public interface UserMapper  {
 
-    List<UserVO> findUser();
+//    List<UserVO> findUser();
+    List<UserVO> getList();
 }

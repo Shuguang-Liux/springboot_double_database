@@ -10,9 +10,9 @@ import java.io.Serializable;
  * @Method
  */
 @Data
-public class UserVO implements Serializable {
+public class UserVO{
     private String id;
     private String username;
     private String password;
-    private String phone;
+    private String deleteStatus;
 }

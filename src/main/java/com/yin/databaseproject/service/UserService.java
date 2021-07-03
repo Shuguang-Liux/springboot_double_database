@@ -13,7 +13,8 @@ import java.util.List;
  */
 
 public interface UserService {
-    List<UserVO> getUsers();
-
-    List<ItemVO> getItems();
+//    List<UserVO> getUsers();
+//
+//    List<ItemVO> getItems();
+    void synchronousData();
 }

@@ -21,13 +21,13 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserService userService;
-    @GetMapping("/getUser")
-    public List<UserVO> getUsers(){
-        return userService.getUsers();
-    }
-
-    @GetMapping("/getItem")
-    public List<ItemVO> getItems(){
-        return userService.getItems();
-    }
+//    @GetMapping("/getUser")
+//    public List<UserVO> getUsers(){
+//        return userService.getUsers();
+//    }
+//
+//    @GetMapping("/getItem")
+//    public List<ItemVO> getItems(){
+//        return userService.getItems();
+//    }
 }
